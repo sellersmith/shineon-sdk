@@ -59,3 +59,8 @@ export interface PaginatedResponse<T> {
 
 /** HTTP methods used by the SDK */
 export type HttpMethod = 'GET' | 'POST' | 'PUT' | 'DELETE';
+
+/** Response from GET /v1/whoami */
+export interface WhoAmIResponse {
+  [key: string]: unknown;
+}
