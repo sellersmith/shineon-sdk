@@ -1,6 +1,6 @@
 {
   "name": "@sellersmith/shineon-sdk",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "TypeScript SDK for ShineOn fulfillment API",
   "type": "module",
   "main": "./dist/index.cjs",
